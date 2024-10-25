@@ -1,0 +1,10 @@
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.1.1
+  - package: calogica/dbt_expectations
+    version: 0.10.1
+  - package: calogica/dbt_date
+    version: 0.10.1
+  - package: infinitelambda/dq_tools
+    version: 1.8.0
+sha1_hash: d350ee40b3bd138b7c2c3e199608e7acfeb6dff0

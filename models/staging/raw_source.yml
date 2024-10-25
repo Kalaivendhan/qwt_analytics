@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: qwt_src
+    database: "{{env_var('DBT_SOURCEDB', 'QWT_DB') }}"
+    description: "raw data for qwt analytics project available in snowflake"
+    schema: "{{env_var('DBT_RAWSCHEMA', 'RAW') }}"
+    tables:
+      - name: products
+      - name: customers
+      - name: employee
+      - name: orders
+      - name: orderdetails
+      - name: offices
+      - name: shipments
+      - name: suppliers_xml
